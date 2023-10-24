@@ -1,0 +1,72 @@
+.body{
+	background-color : #fff1;
+	font-family: aerial;
+	color : #111111;
+	
+}
+
+#lyricsForm{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr) ;
+	gap: 10px;
+	margin-top: 10px;
+}
+
+#addLyricBtn {
+	outline: none !important;
+	border: none;
+	border-radius: 20px;
+	background-color: orange !important;
+	color: white;
+
+
+}
+#timestamp{
+	outline: none;
+/*	border: none;*/
+	background-color: transparent;
+	border-right: none;
+	border-top: none;
+	border-left: none;
+	border-bottom: 1px black solid;
+/*	font-size: 1em;*/
+	grid-column: 3;
+	outline: none;
+	width: 70px;
+
+
+}
+#lyric{
+		outline: none;
+/*	border: none;*/
+	background-color: transparent;
+	border-right: none;
+	border-top: none;
+	border-left: none;
+	border-bottom: 1px black solid;
+/*	font-size: 2em;*/
+	grid-column: 3;
+	outline: none;
+
+}
+ul{
+	list-style: none !important;
+}
+li{
+	background-color: lightgrey;
+	border-radius: 20px;
+	padding: 10px;
+	margin: 2px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+li > button {
+	background-color: green;
+	color: whitesmoke;
+	border-radius: 3px;
+	border: none;
+	outline: none !important;
+	
+}

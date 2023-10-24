@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Lyrics Sync</title>
+	<link rel="stylesheet" href="style.css"></link>
+</head>
+
+<body class="body">
+	<audio  id="audio" controls >
+		<source src="./Feed-Ft.-ViceRoy-IV.mp3"type="audio/mpeg">
+			Your Browser has no Support for The Element
+	</audio>
+
+	<form id="lyricsForm">
+		<div>
+			<label for="timestamp">Time Stamp</label>
+			<input type="number" step="0.01" name="timestamp" id="timestamp" required>
+		</div>
+		<div>
+			<label for="lyric">Lyrics</label>
+			<input type="text" name="lyric" id="lyric" required>
+		</div>
+		<button type="button" id="addLyricBtn">Add Lyrics</button>
+	</form>
+
+	<div>
+		<span id="lyricsDisplay"></span>
+	</div>
+
+	<div id="editSection">
+		<h2>Edit Lyrics</h2>
+		<ul id="lyricsList"></ul>
+	</div>
+
+<script type="text/javascript" src="sync.js"></script>	
+</body>
+</html>
